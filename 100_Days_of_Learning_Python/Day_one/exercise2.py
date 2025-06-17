@@ -3,8 +3,10 @@
 #Question
 # Ask a user their weight (in pounds), convert it to kilograms and print on the terminal
 
-weight = float(input("Enter your weight "))
-weight_in_kg = weight * 0.45
+weight = input("Enter your weight ")
+weight_in_kg = 0.45
+
+conversion = weight_in_kg * float(weight)
 
 
-print("Your weight in Kilogram is " + weight_in_kg)
+print(f'Your weight in Kilogram is {conversion}')
