@@ -5,3 +5,6 @@
 
 Birth_year = int(input("Enter the year you were born "))
 current_year = 2025
+
+Age = current_year - Birth_year
+print(f"You are {Age} Years Old")
